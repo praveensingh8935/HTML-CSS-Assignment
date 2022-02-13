@@ -5,3 +5,23 @@
 width: 100%;
 height: 100%;
 }
+.my-list{
+    position: absolute; top: 20px;
+}
+.row{
+    display: block;
+    width: 100%;
+    border: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col{
+    display: inline-block;
+    border: 1px;
+    height: 100%;
+    width: 45%;
+    vertical-align:middle;
+}
+.head{
+    width: 350px;
+}
