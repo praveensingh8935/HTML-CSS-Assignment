@@ -1,7 +1,64 @@
 /* Our CSS file. */
-
-
-.container, .content {
+*{
+    box-sizing: border-box;
+}
+html, body, .container, .content {
 width: 100%;
 height: 100%;
+}
+body{
+    padding-top: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-1{
+    height: 100%;
+}
+.card{
+    display: flex;
+    flex:0 0 auto;
+    background-color: #fff;
+    max-width: 700px;
+    margin: 88px 0;
+    border-radius: 5px;
+ 
+    box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 5px 7px 0px rgba(0,0,0,0.5);
+}
+.card-img{
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    flex:0 0 auto;
+    position: relative;
+    background-image: linear-gradient(to bottom, #9fd483,#8dc26f);
+
+}
+.card-img img{
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    margin-left: -170px;
+    width: 350px;
+
+}
+.content{
+    padding: 3em 4em 2em;
+
+}
+p a{
+    padding: 5px;
+    background-color: #9fd483;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 50px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+a:hover{
+    background-color: #70a751;
 }
